@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode11.7
-script:
+script: 
   - xcodebuild -project Dop.xcodeproj -scheme Dop -sdk iphonesimulator13.7 ONLY_ACTIVE_ARCH=NO
-  - xcodebuild test -project Dop.xcodeproj -scheme DopTests -sdk iphonesimulator13.7 ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -project Dop.xcodeproj -scheme DopTests -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE (2nd generation),OS=13.7' test

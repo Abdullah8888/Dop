@@ -36,7 +36,6 @@ class DopTests: XCTestCase {
     }
     
     func testAddition() {
-        print("it is \(result)")
         XCTAssertTrue(result == 11)
     }
     
