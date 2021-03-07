@@ -1,5 +1,5 @@
 //
-//  DopTests.swift
+//  AdditionTest.swift
 //  DopTests
 //
 //  Created by Jimoh Babatunde  on 07/03/2021.
@@ -9,18 +9,14 @@
 import XCTest
 @testable import Dop
 
-class DopTests: XCTestCase {
-    var additionModel = AdditionModel()
-    var result: Int!
+class AdditionTest: XCTestCase {
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        result = additionModel.addNumbers(firstNum: 5, secondNum: 6)
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-        //additionModel = nil
-        result  = nil
     }
 
     func testExample() throws {
@@ -34,10 +30,5 @@ class DopTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
-    func testAddition() {
-        print("it is \(result)")
-        XCTAssertTrue(result == 11)
-    }
-    
+
 }

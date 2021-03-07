@@ -9,12 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var viewModel = AdditionModel()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+       
+        let re = self.viewModel.addNumbers(firstNum: 3, secondNum: 4)
+        print(re)
     }
-
 
 }
 

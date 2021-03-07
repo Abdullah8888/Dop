@@ -15,6 +15,8 @@
 		C928EDF025F4B644009D44B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C928EDEE25F4B644009D44B9 /* LaunchScreen.storyboard */; };
 		C928EDFB25F4B644009D44B9 /* DopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928EDFA25F4B644009D44B9 /* DopTests.swift */; };
 		C928EE0625F4B644009D44B9 /* DopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928EE0525F4B644009D44B9 /* DopUITests.swift */; };
+		C928EE1425F4BDDC009D44B9 /* AdditionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928EE1325F4BDDC009D44B9 /* AdditionTest.swift */; };
+		C928EE1625F4BE09009D44B9 /* AdditionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928EE1525F4BE09009D44B9 /* AdditionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C928EE0125F4B644009D44B9 /* DopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C928EE0525F4B644009D44B9 /* DopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopUITests.swift; sourceTree = "<group>"; };
 		C928EE0725F4B644009D44B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C928EE1325F4BDDC009D44B9 /* AdditionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionTest.swift; sourceTree = "<group>"; };
+		C928EE1525F4BE09009D44B9 /* AdditionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				C928EDEC25F4B644009D44B9 /* Assets.xcassets */,
 				C928EDEE25F4B644009D44B9 /* LaunchScreen.storyboard */,
 				C928EDF125F4B644009D44B9 /* Info.plist */,
+				C928EE1525F4BE09009D44B9 /* AdditionModel.swift */,
 			);
 			path = Dop;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			children = (
 				C928EDFA25F4B644009D44B9 /* DopTests.swift */,
 				C928EDFC25F4B644009D44B9 /* Info.plist */,
+				C928EE1325F4BDDC009D44B9 /* AdditionTest.swift */,
 			);
 			path = DopTests;
 			sourceTree = "<group>";
@@ -262,6 +268,7 @@
 				C928EDE825F4B643009D44B9 /* ViewController.swift in Sources */,
 				C928EDE425F4B643009D44B9 /* AppDelegate.swift in Sources */,
 				C928EDE625F4B643009D44B9 /* SceneDelegate.swift in Sources */,
+				C928EE1625F4BE09009D44B9 /* AdditionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C928EDFB25F4B644009D44B9 /* DopTests.swift in Sources */,
+				C928EE1425F4BDDC009D44B9 /* AdditionTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,4 @@
+language: swift
+script:
+  - xctool -project Dop.xcodeproj -scheme Dop -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -project Dop.xcodeproj -scheme DopTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
