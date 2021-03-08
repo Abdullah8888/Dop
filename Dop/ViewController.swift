@@ -14,8 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
        
-        let re = self.viewModel.addNumbers(firstNum: 3, secondNum: 4)
-        print(re)
+        _ = self.viewModel.addNumbers(firstNum: 3, secondNum: 4)
+        
     }
 
 }
